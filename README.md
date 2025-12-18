@@ -105,9 +105,9 @@ g_loss_balanced = g_loss + r_fake_logits
 การทดลองและผลลัพธ์ (Experiments & Results)
 ใน Notebook นี้มีการเปรียบเทียบประสิทธิภาพระหว่าง 2 โมเดลเพื่อศึกษาผลกระทบของการ Preprocessing:
 ```blash
-Model Name	Configuration	รายละเอียด
-Model A	Baseline	ใช้ข้อมูลภาพดิบ (Raw Images) ในการเทรน
-Model B	Preprocessed	ใช้ข้อมูลที่ผ่านการทำ Morphological Closing
+Model Name	    Configuration	               รายละเอียด
+Model  A	       Baseline	           ใช้ข้อมูลภาพดิบ (Raw Images) ในการเทรน
+Model  B	      Preprocessed	       ใช้ข้อมูลที่ผ่านการทำ Morphological Closing
 
 ```
 การวัดผล (Evaluation Metric)
